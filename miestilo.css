@@ -1,0 +1,128 @@
+/* Eliminar o comentar estos estilos si existen */
+/*
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+*/
+
+/* Agregar estos nuevos estilos para el login */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+    padding: 40px 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1c1c23;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.login-form .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.login-form .form-control:focus {
+    border-color: #1c1c23;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(28, 28, 35, 0.25);
+}
+
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.btn-login {
+    background-color: #1c1c23;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #2a2a35;
+}
+
+.btn-cancel {
+    background-color: transparent;
+    color: #555;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn-cancel:hover {
+    background-color: #f5f5f5;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.register-link a {
+    color: #1c1c23;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        padding: 1.5rem;
+    }
+    
+    .login-title {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+}
